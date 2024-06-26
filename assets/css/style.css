@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fz24{
+    font-size: 24px;
+}
+
+b{
+    font-weight: bold;
+    color: #009688;
+}
+
+.bold{
+    background-color:#009688 !important;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+.icon{
+    padding: 0 16px;
+}
+
+body{
+    background-color: #f1f1f1;
+    font-size: 16px;
+}
+
+.mr-tb12{
+    margin: 12px 0;
+}
+#container{
+    width: auto;
+    margin: 32px;
+    display: flex;
+}
+
+#col-left{
+    width: 33%;
+    padding: 24px;
+    margin: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+}
+
+.display-container{
+    position: relative;
+}
+
+#avatar{
+    width: 100%;
+    margin: auto;
+}
+
+.name{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 26px;
+    color: #efd7d7;
+    padding: 16px 32px;
+}
+
+.col-left-container{
+    margin: 8px;
+}
+
+.infor{
+    
+}
+
+hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+
+#col-right{
+    width: 66%;
+    background-color: #fff;
+    margin: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+}
+
+.col-right-container{
+    margin: 8px;
+}
+
+.education{
+
+}
+
+.job-exp{
+
+}
+
+.career-vision{
+
+}
+
+.career-desc{
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+
+.project a{
+    text-decoration: none;
+    color: rgb(35, 199, 65);
+    font-size: 30px;
+}
+
+.project a:hover{
+    opacity: 0.6;
+}
+
+#footer{
+    background-color: #009688;
+    min-height: 120px;
+}
+
+.icon-lists{
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-lists p{
+    color: #fff;
+}
+
+.icon-lists a{
+    text-decoration: none;
+    color: #000;
+    padding: 8px 0;
+    border-radius: 6px;
+    
+}
+
+.icon-lists a:hover{
+    opacity: 0.6;
+    background-color: #eee;
+}
